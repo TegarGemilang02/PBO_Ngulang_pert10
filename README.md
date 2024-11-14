@@ -13,9 +13,10 @@ Proyek ini adalah simulasi sistem ATM sederhana yang memungkinkan pengguna untuk
 ## Fitur tambahan
 - ubah Pin akun
 
-## Struktur Project
+## Struktur Proyek
 - src/com/atm/ATM.java: Kelas utama untuk menjalankan aplikasi ATM.
 - src/com/atm/model/Account.java: Kelas untuk merepresentasikan akun bank.
 - src/com/atm/transaction/Transaction.java: Kelas abstrak untuk transaksi.
 - src/com/atm/transaction/Deposit.java: Kelas untuk menangani transaksi deposit.
-- src/com/atm/transaction/Withdrawal.java: Kelas untuk menanga
+- src/com/atm/transaction/Withdrawal.java: Kelas untuk menangani transaksi penarikan.
+- src/com/atm/transaction/Transfer.java: Kelas untuk menangani transaksi transfer.
